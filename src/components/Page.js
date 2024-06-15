@@ -1,4 +1,4 @@
-// src/components/LinkTree.js
+// src/components/Page.js
 import React from 'react';
 import Link from './Link';
 import './Page.css';
