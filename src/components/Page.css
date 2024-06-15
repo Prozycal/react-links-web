@@ -1,0 +1,99 @@
+/* src/components/LinkTree.css */
+
+@tailwind components;
+@tailwind utilities;
+
+.linktree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: #343a40 3px solid;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #343a40;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+
+  .smalltext {
+    font-size: smaller;
+    color: #6c757d;
+    margin-bottom: -5px;
+}
+
+.smalltexts {
+  font-size: smaller;
+  color: #6c757d;
+  margin-bottom: -5px;
+}
+
+.smalltexts a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.smalltexts a:hover {
+  text-decoration: underline;
+}
+
+.smalltexts a:hover .fa-heart {
+  color: rgb(255, 56, 56);
+  transition: color 0.3s ease;
+}
+
+  
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #343a40;
+  font-size: 1.5em;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+  color:#ffb669
+}
+
+footer {
+  margin-top: 25px;
+  color: #6c757d;
+  font-size: 0.8em;
+}

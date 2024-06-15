@@ -1,0 +1,19 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffb669, #ffefd2);
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+}
